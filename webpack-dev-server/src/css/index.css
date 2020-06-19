@@ -1,0 +1,26 @@
+body{
+    background:red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin:0;
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: 1000ms latido infinite;
+}
+
+@keyframes latido{
+    0%{
+        transform:scale(1.1);
+    }
+    50%{
+        transform:scale(0.9);
+
+    }
+    100%{
+        transform:scale(1.1);
+    }
+}
